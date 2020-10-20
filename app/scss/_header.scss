@@ -1,11 +1,11 @@
-.desktop-header {
+.header {
     height: 80px;
     background-color: #fff;
     border-bottom: 1px solid #ECEDEF;
     display: flex;
     box-shadow: 0 8px 15px 3px rgba(0, 0, 0, 0.30);
 
-    .container-flex {
+    .flex {
         display: flex;
     }
 
@@ -31,25 +31,25 @@
         width: 100%;
         font-size: 12px;
 
-        &--item {
-            margin-right: 40px;
-            &:last-child {
-                margin-right: 0;
-            }
-
-            &--link {
-                text-decoration: none;
-                color: #031328;
-
-                &--image {
-                    width: 10px;
-                    margin-left: 6px;
-                }
-            }
-        }
-
         .push {
             margin-left: auto;
         }
+    }
+
+    &--list {
+        margin-right: 40px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &--link {
+        text-decoration: none;
+        color: #031328;
+    }
+    
+    &--link-arrow {
+        width: 10px;
+        margin-left: 6px;
     }
 } 
