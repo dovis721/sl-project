@@ -1,0 +1,43 @@
+.footer {
+    background: #231F20;
+    color: #ffffff;
+
+    &--wrapper {
+        padding: 50px 0 25px 0;
+    }
+
+    &--contacts {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &--icon {
+        margin-right: 15px;
+    }
+
+    &--icon-text {
+        vertical-align: middle;
+    }
+
+    &--line {
+        content: '';
+        border-bottom: 1px solid #F58220;
+        width: 100%;
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    &--terms-cr {
+        font-size: 13px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--terms {
+        color: #ffffff;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}

@@ -1,389 +1,655 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./app/png/UTF-logo.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="dist/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav class="header">
-            <div class="container flex">
-                <div class="header--logo">
-                    <a href="#"><img src="app/png/UTF-logo1.png" alt=""></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./app/png/UTF-logo.png">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+        <link rel="stylesheet" href="dist/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="header">
+                <div class="container flex">
+                    <div class="header--logo">
+                        <a href="#"><img src="app/png/UTF-logo1.png" alt=""></a>
+                    </div>
+                    <ul class="header--nav">
+                        <li class="header--list">
+                            <a class="header--link" href="#">apie mus</a>
+                        </li>
+                        <li class="header--list">
+                            <a class="header--link" href="#">paslaugos
+                                <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="header--list">
+                            <a class="header--link" href="#">naudinga informacija
+                                <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="header--list">
+                            <a class="header--link" href="#">užklausimas
+                                <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="header--list push">
+                            <a class="header--link" href="#">kontaktai
+                                <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="header--list">
+                            <a class="header--link" href="#">LT
+                                <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="header--nav">
-                    <li class="header--list">
-                        <a class="header--link" href="#">apie mus</a>
-                    </li>
-                    <li class="header--list">
-                        <a class="header--link" href="#">paslaugos
-                            <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="header--list">
-                        <a class="header--link" href="#">naudinga informacija
-                            <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="header--list">
-                        <a class="header--link" href="#">užklausimas
-                            <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="header--list push">
-                        <a class="header--link" href="#">kontaktai
-                            <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
-                        </a>
-                    </li>
-                    <li class="header--list">
-                        <a class="header--link" href="#">LT
-                            <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    
-    <main>
-        <section class="hero">
-            <div class="hero--img"></div>
+            </nav>
+        </header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
-                <div class="hero--wrapper">
-                    <h1 class="hero--heading">patikimi logistikos sprendimai</h1>
-                    <p class="hero--short-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consectetur repudiandae voluptatem consequuntur, magni minima officia dignissimos. Architecto, quis vero facilis incidunt odio obcaecati omnis sunt. Nobis tempore quasi tenetur.</p>
-                    <div class="hero--buttons">
-                        <!-- <a href="#" class="hero--btn-secondary">
-                            Skaityti toliau
-                        </a> -->
-                        <a href="#" class="hero--btn-primary">
-                            Susisiekite su mumis
-                        </a>
+                <a class="navbar-brand" href="#"><img class="img" src="./app/png/UTF-logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link px-1 py-4" href="#">APIE MUS</a>
+                </li>
+                <li class="nav-item dropdown mr-4">
+                    <a class="nav-link px-1 py-4" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">PASLAUGOS
+                        <img class="header--link-arrow" src="app/svg/down-arrow.svg" alt="">
+                    </a>
+                    <div class="dropdown-menu m-0" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-4">
+                    <a class="nav-link dropdown-toggle px-1 py-4" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">NAUDINGA INFORMACIJA</a>
+                    <div class="dropdown-menu m-0" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle px-1 py-4" href="#" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">UZKLAUSIMAS</a>
+                    <div class="dropdown-menu m-0" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+              </ul> 
+            </div>
+            </div>
+            
+          </nav>
+        
+        <main>
+            <section class="hero">
+                <div class="hero--img"></div>
+                <div class="container">
+                    <div class="hero--wrapper">
+                        <h1 class="hero--heading">patikimi logistikos sprendimai</h1>
+                        <p class="hero--short-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius consectetur repudiandae voluptatem consequuntur, magni minima officia dignissimos. Architecto, quis vero facilis incidunt odio obcaecati omnis sunt. Nobis tempore quasi tenetur.</p>
+                        <div class="hero--buttons">
+                            <!-- <a href="#" class="hero--btn-secondary">
+                                Skaityti toliau
+                            </a> -->
+                            <a href="#" class="hero--btn-primary">
+                                Susisiekite su mumis
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="services">
-            <div class="container">
-                <div class="services--wrapper">
-                    <h2 class="services--heading">Mūsų Teikiamos Paslaugos</h2>
-                    <div class="services--grid">
-                        <!-- <div class="services--row1"> -->
-                            <a href="#" class="services--single">
-                                <svg class="services--icon" height="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
-                                    <defs>
-                                        <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
-                                            <stop offset="0%" style="stop-color:rgb(247,155,77);stop-opacity:1" />
-                                            <stop offset="100%" style="stop-color:rgb(245,130,32);stop-opacity:1" />
-                                        </linearGradient>
-                                    </defs>
-                                    <g fill="url(#grad2)">
-                                        <g>
-                                            <path d="M95.758,344.692h-0.081c-4.142,0-7.459,3.358-7.459,7.5c0,4.142,3.398,7.5,7.54,7.5c4.142,0,7.5-3.358,7.5-7.5
-                                                C103.258,348.05,99.9,344.692,95.758,344.692z"/>
-                                        </g>
-                                        <g>
-                                            <path d="M159.887,344.692h-0.08c-4.142,0-7.46,3.358-7.46,7.5c0,4.142,3.398,7.5,7.54,7.5c4.142,0,7.5-3.358,7.5-7.5
-                                                C167.387,348.05,164.029,344.692,159.887,344.692z"/>
-                                        </g>
-                                        <g>
-                                            <path d="M424.419,344.692h-0.08c-4.142,0-7.46,3.358-7.46,7.5c0,4.142,3.398,7.5,7.54,7.5c4.142,0,7.5-3.358,7.5-7.5
-                                                C431.919,348.05,428.561,344.692,424.419,344.692z"/>
-                                        </g>
-                                        <g>
-                                            <path d="M505.107,254.016l-10.084-10.084l-20.315-60.946c3.031-0.963,5.228-3.798,5.228-7.147c0-4.142-3.358-7.5-7.5-7.5h-72.661
-                                                v-32.578c0-8.556-6.96-15.516-15.516-15.516H15.516C6.96,120.245,0,127.206,0,135.761v176.354c0,8.556,6.96,15.516,15.516,15.516
-                                                h8.532v16.544c0,8.556,6.96,15.516,15.516,15.516h17.271c3.516,18.24,19.591,32.064,38.842,32.064
-                                                c13.182,0,24.871-6.486,32.064-16.428c7.194,9.942,18.883,16.428,32.065,16.428c19.251,0,35.327-13.824,38.842-32.064h186.848
-                                                c3.516,18.24,19.591,32.064,38.842,32.064c21.816,0,39.564-17.749,39.564-39.564c0-0.172-0.011-0.341-0.013-0.512h32.594
-                                                c8.556,0,15.516-6.96,15.516-15.516v-65.508C512,264.37,509.552,258.461,505.107,254.016z M56.835,344.692H39.564
-                                                c-0.285,0-0.516-0.231-0.516-0.516v-16.544h25.645C60.813,332.518,58.06,338.334,56.835,344.692z M95.677,376.757
-                                                c-13.545,0-24.564-11.02-24.564-24.564c0-13.493,10.937-24.477,24.411-24.561h0.308c13.474,0.083,24.411,11.067,24.411,24.561
-                                                C120.242,365.737,109.222,376.757,95.677,376.757z M159.807,376.757c-13.545,0-24.565-11.02-24.565-24.564
-                                                c0-13.493,10.937-24.477,24.411-24.561h0.308c13.474,0.083,24.411,11.067,24.411,24.561
-                                                C184.371,365.737,173.352,376.757,159.807,376.757z M385.497,344.692H198.649c-1.225-6.358-3.978-12.175-7.859-17.061h145.371
-                                                c4.142,0,7.5-3.358,7.5-7.5c0-4.142-3.358-7.5-7.5-7.5H15.516c-0.285,0-0.516-0.231-0.516-0.516V135.761
-                                                c0-0.285,0.231-0.516,0.516-0.516h368.742c0.285,0,0.516,0.231,0.516,0.516v176.871h-16.545c-4.142,0-7.5,3.358-7.5,7.5
-                                                c0,4.142,3.358,7.5,7.5,7.5h25.126C389.474,332.518,386.722,338.334,385.497,344.692z M480.734,248.499h-48.379
-                                                c-0.285,0-0.516-0.231-0.516-0.516v-32.581h37.863L480.734,248.499z M424.339,376.757c-13.545,0-24.564-11.02-24.564-24.564
-                                                c0-13.493,10.937-24.477,24.411-24.561h0.154c0.017,0,0.034-0.002,0.052-0.003c13.521,0.028,24.513,11.036,24.513,24.563
-                                                C448.903,365.737,437.884,376.757,424.339,376.757z M497,336.165c0,0.285-0.231,0.516-0.516,0.516h-35.752
-                                                c-6.045-14.127-20.08-24.052-36.393-24.052c-0.052,0-0.102,0.004-0.154,0.004h-24.41V183.858v-0.004
-                                                c0-0.285,0.231-0.516,0.516-0.516h58.723l5.688,17.064h-40.363c-4.142,0-7.5,3.358-7.5,7.5v40.081
-                                                c0,8.556,6.96,15.516,15.516,15.516h61.022l1.124,1.124c1.611,1.612,2.499,3.754,2.499,6.033v17.928h-8.532
-                                                c-4.142,0-7.5,3.358-7.5,7.5c0,4.142,3.358,7.5,7.5,7.5H497V336.165z"/>
-                                        </g>
-                                        <g>
-                                            <path d="M360.209,280.567H39.564c-4.142,0-7.5,3.358-7.5,7.5c0,4.142,3.358,7.5,7.5,7.5h320.645c4.142,0,7.5-3.358,7.5-7.5
-                                                C367.709,283.925,364.351,280.567,360.209,280.567z"/>
-                                        </g>
-                                    </g>
-                                </svg>
-                                <h3 class="services--single-heading">Pilnų Krovinių <br> Gabenimas</h3>
-                                <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
-                                <span class="services--more">SUŽINOK DAUGIAU
-                                    <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
+            <section class="services">
+                <div class="container">
+                    <div class="services--wrapper">
+                        <h2 class="services--heading">Mūsų Teikiamos Paslaugos</h2>
+                        <div class="services--grid">
+                            <!-- <div class="services--row1"> -->
+                                <a href="#" class="services--single">
+                                    <svg class="services--icon" height="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.999 511.999" xml:space="preserve">
                                         <defs>
-                                            <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
-                                                <stop offset="0%" style="stop-color:rgb(245,130,32);stop-opacity:1" />
+                                            <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                                <stop offset="0%" style="stop-color:rgb(247,155,77);stop-opacity:1" />
                                                 <stop offset="100%" style="stop-color:rgb(245,130,32);stop-opacity:1" />
                                             </linearGradient>
                                         </defs>
-                                        <g fill="url(#grad1)">
-                                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                                                L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                                                c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
+                                        <g fill="url(#grad2)">
+                                            <g>
+                                                <path d="M95.758,344.692h-0.081c-4.142,0-7.459,3.358-7.459,7.5c0,4.142,3.398,7.5,7.54,7.5c4.142,0,7.5-3.358,7.5-7.5
+                                                    C103.258,348.05,99.9,344.692,95.758,344.692z"/>
+                                            </g>
+                                            <g>
+                                                <path d="M159.887,344.692h-0.08c-4.142,0-7.46,3.358-7.46,7.5c0,4.142,3.398,7.5,7.54,7.5c4.142,0,7.5-3.358,7.5-7.5
+                                                    C167.387,348.05,164.029,344.692,159.887,344.692z"/>
+                                            </g>
+                                            <g>
+                                                <path d="M424.419,344.692h-0.08c-4.142,0-7.46,3.358-7.46,7.5c0,4.142,3.398,7.5,7.54,7.5c4.142,0,7.5-3.358,7.5-7.5
+                                                    C431.919,348.05,428.561,344.692,424.419,344.692z"/>
+                                            </g>
+                                            <g>
+                                                <path d="M505.107,254.016l-10.084-10.084l-20.315-60.946c3.031-0.963,5.228-3.798,5.228-7.147c0-4.142-3.358-7.5-7.5-7.5h-72.661
+                                                    v-32.578c0-8.556-6.96-15.516-15.516-15.516H15.516C6.96,120.245,0,127.206,0,135.761v176.354c0,8.556,6.96,15.516,15.516,15.516
+                                                    h8.532v16.544c0,8.556,6.96,15.516,15.516,15.516h17.271c3.516,18.24,19.591,32.064,38.842,32.064
+                                                    c13.182,0,24.871-6.486,32.064-16.428c7.194,9.942,18.883,16.428,32.065,16.428c19.251,0,35.327-13.824,38.842-32.064h186.848
+                                                    c3.516,18.24,19.591,32.064,38.842,32.064c21.816,0,39.564-17.749,39.564-39.564c0-0.172-0.011-0.341-0.013-0.512h32.594
+                                                    c8.556,0,15.516-6.96,15.516-15.516v-65.508C512,264.37,509.552,258.461,505.107,254.016z M56.835,344.692H39.564
+                                                    c-0.285,0-0.516-0.231-0.516-0.516v-16.544h25.645C60.813,332.518,58.06,338.334,56.835,344.692z M95.677,376.757
+                                                    c-13.545,0-24.564-11.02-24.564-24.564c0-13.493,10.937-24.477,24.411-24.561h0.308c13.474,0.083,24.411,11.067,24.411,24.561
+                                                    C120.242,365.737,109.222,376.757,95.677,376.757z M159.807,376.757c-13.545,0-24.565-11.02-24.565-24.564
+                                                    c0-13.493,10.937-24.477,24.411-24.561h0.308c13.474,0.083,24.411,11.067,24.411,24.561
+                                                    C184.371,365.737,173.352,376.757,159.807,376.757z M385.497,344.692H198.649c-1.225-6.358-3.978-12.175-7.859-17.061h145.371
+                                                    c4.142,0,7.5-3.358,7.5-7.5c0-4.142-3.358-7.5-7.5-7.5H15.516c-0.285,0-0.516-0.231-0.516-0.516V135.761
+                                                    c0-0.285,0.231-0.516,0.516-0.516h368.742c0.285,0,0.516,0.231,0.516,0.516v176.871h-16.545c-4.142,0-7.5,3.358-7.5,7.5
+                                                    c0,4.142,3.358,7.5,7.5,7.5h25.126C389.474,332.518,386.722,338.334,385.497,344.692z M480.734,248.499h-48.379
+                                                    c-0.285,0-0.516-0.231-0.516-0.516v-32.581h37.863L480.734,248.499z M424.339,376.757c-13.545,0-24.564-11.02-24.564-24.564
+                                                    c0-13.493,10.937-24.477,24.411-24.561h0.154c0.017,0,0.034-0.002,0.052-0.003c13.521,0.028,24.513,11.036,24.513,24.563
+                                                    C448.903,365.737,437.884,376.757,424.339,376.757z M497,336.165c0,0.285-0.231,0.516-0.516,0.516h-35.752
+                                                    c-6.045-14.127-20.08-24.052-36.393-24.052c-0.052,0-0.102,0.004-0.154,0.004h-24.41V183.858v-0.004
+                                                    c0-0.285,0.231-0.516,0.516-0.516h58.723l5.688,17.064h-40.363c-4.142,0-7.5,3.358-7.5,7.5v40.081
+                                                    c0,8.556,6.96,15.516,15.516,15.516h61.022l1.124,1.124c1.611,1.612,2.499,3.754,2.499,6.033v17.928h-8.532
+                                                    c-4.142,0-7.5,3.358-7.5,7.5c0,4.142,3.358,7.5,7.5,7.5H497V336.165z"/>
+                                            </g>
+                                            <g>
+                                                <path d="M360.209,280.567H39.564c-4.142,0-7.5,3.358-7.5,7.5c0,4.142,3.358,7.5,7.5,7.5h320.645c4.142,0,7.5-3.358,7.5-7.5
+                                                    C367.709,283.925,364.351,280.567,360.209,280.567z"/>
+                                            </g>
                                         </g>
                                     </svg>
-                                </span>
-                            </a>
-                            <a href="#" class="services--single">
-                                <svg class="services--icon" height="55px" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 512 512">
-                                    <title>Commercial delivery </title>
-                                    <g fill="url(#grad2)">
-                                        <path d="M472.916,224H448.007a24.534,24.534,0,0,0-23.417-18H398V140.976a6.86,6.86,0,0,0-3.346-6.062L207.077,26.572a6.927,6.927,0,0,0-6.962,0L12.48,134.914A6.981,6.981,0,0,0,9,140.976V357.661a7,7,0,0,0,3.5,6.062L200.154,472.065a7,7,0,0,0,3.5.938,7.361,7.361,0,0,0,3.6-.938L306,415.108v41.174A29.642,29.642,0,0,0,335.891,486H472.916A29.807,29.807,0,0,0,503,456.282v-202.1A30.2,30.2,0,0,0,472.916,224Zm-48.077-4A10.161,10.161,0,0,1,435,230.161v.678A10.161,10.161,0,0,1,424.839,241H384.161A10.161,10.161,0,0,1,374,230.839v-.678A10.161,10.161,0,0,1,384.161,220ZM203.654,40.717l77.974,45.018L107.986,185.987,30.013,140.969ZM197,453.878,23,353.619V153.085L197,253.344Zm6.654-212.658-81.668-47.151L295.628,93.818,377.3,140.969ZM306,254.182V398.943l-95,54.935V253.344L384,153.085V206h.217A24.533,24.533,0,0,0,360.8,224H335.891A30.037,30.037,0,0,0,306,254.182Zm183,202.1A15.793,15.793,0,0,1,472.916,472H335.891A15.628,15.628,0,0,1,320,456.282v-202.1A16.022,16.022,0,0,1,335.891,238h25.182a23.944,23.944,0,0,0,23.144,17H424.59a23.942,23.942,0,0,0,23.143-17h25.183A16.186,16.186,0,0,1,489,254.182Z"/><path d="M343.949,325h7.327a7,7,0,1,0,0-14H351V292h19.307a6.739,6.739,0,0,0,6.655,4.727A7.019,7.019,0,0,0,384,289.743v-4.71A7.093,7.093,0,0,0,376.924,278H343.949A6.985,6.985,0,0,0,337,285.033v32.975A6.95,6.95,0,0,0,343.949,325Z"/><path d="M344,389h33a7,7,0,0,0,7-7V349a7,7,0,0,0-7-7H344a7,7,0,0,0-7,7v33A7,7,0,0,0,344,389Zm7-33h19v19H351Z"/><path d="M351.277,439H351V420h18.929a7.037,7.037,0,0,0,14.071.014v-6.745A7.3,7.3,0,0,0,376.924,406H343.949A7.191,7.191,0,0,0,337,413.269v32.975A6.752,6.752,0,0,0,343.949,453h7.328a7,7,0,1,0,0-14Z"/><path d="M393.041,286.592l-20.5,20.5-6.236-6.237a7,7,0,1,0-9.9,9.9l11.187,11.186a7,7,0,0,0,9.9,0l25.452-25.452a7,7,0,0,0-9.9-9.9Z"/><path d="M393.041,415.841l-20.5,20.5-6.236-6.237a7,7,0,1,0-9.9,9.9l11.187,11.186a7,7,0,0,0,9.9,0l25.452-25.452a7,7,0,0,0-9.9-9.9Z"/><path d="M464.857,295H420.891a7,7,0,0,0,0,14h43.966a7,7,0,0,0,0-14Z"/><path d="M464.857,359H420.891a7,7,0,0,0,0,14h43.966a7,7,0,0,0,0-14Z"/><path d="M464.857,423H420.891a7,7,0,0,0,0,14h43.966a7,7,0,0,0,0-14Z"/>
+                                    <h3 class="services--single-heading">Pilnų Krovinių <br> Gabenimas</h3>
+                                    <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
+                                    <span class="services--more">SUŽINOK DAUGIAU
+                                        <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
+                                            <defs>
+                                                <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                                    <stop offset="0%" style="stop-color:rgb(245,130,32);stop-opacity:1" />
+                                                    <stop offset="100%" style="stop-color:rgb(245,130,32);stop-opacity:1" />
+                                                </linearGradient>
+                                            </defs>
+                                            <g fill="url(#grad1)">
+                                                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                                                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                                                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a href="#" class="services--single">
+                                    <svg class="services--icon" height="55px" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 512 512">
+                                        <title>Commercial delivery </title>
+                                        <g fill="url(#grad2)">
+                                            <path d="M472.916,224H448.007a24.534,24.534,0,0,0-23.417-18H398V140.976a6.86,6.86,0,0,0-3.346-6.062L207.077,26.572a6.927,6.927,0,0,0-6.962,0L12.48,134.914A6.981,6.981,0,0,0,9,140.976V357.661a7,7,0,0,0,3.5,6.062L200.154,472.065a7,7,0,0,0,3.5.938,7.361,7.361,0,0,0,3.6-.938L306,415.108v41.174A29.642,29.642,0,0,0,335.891,486H472.916A29.807,29.807,0,0,0,503,456.282v-202.1A30.2,30.2,0,0,0,472.916,224Zm-48.077-4A10.161,10.161,0,0,1,435,230.161v.678A10.161,10.161,0,0,1,424.839,241H384.161A10.161,10.161,0,0,1,374,230.839v-.678A10.161,10.161,0,0,1,384.161,220ZM203.654,40.717l77.974,45.018L107.986,185.987,30.013,140.969ZM197,453.878,23,353.619V153.085L197,253.344Zm6.654-212.658-81.668-47.151L295.628,93.818,377.3,140.969ZM306,254.182V398.943l-95,54.935V253.344L384,153.085V206h.217A24.533,24.533,0,0,0,360.8,224H335.891A30.037,30.037,0,0,0,306,254.182Zm183,202.1A15.793,15.793,0,0,1,472.916,472H335.891A15.628,15.628,0,0,1,320,456.282v-202.1A16.022,16.022,0,0,1,335.891,238h25.182a23.944,23.944,0,0,0,23.144,17H424.59a23.942,23.942,0,0,0,23.143-17h25.183A16.186,16.186,0,0,1,489,254.182Z"/><path d="M343.949,325h7.327a7,7,0,1,0,0-14H351V292h19.307a6.739,6.739,0,0,0,6.655,4.727A7.019,7.019,0,0,0,384,289.743v-4.71A7.093,7.093,0,0,0,376.924,278H343.949A6.985,6.985,0,0,0,337,285.033v32.975A6.95,6.95,0,0,0,343.949,325Z"/><path d="M344,389h33a7,7,0,0,0,7-7V349a7,7,0,0,0-7-7H344a7,7,0,0,0-7,7v33A7,7,0,0,0,344,389Zm7-33h19v19H351Z"/><path d="M351.277,439H351V420h18.929a7.037,7.037,0,0,0,14.071.014v-6.745A7.3,7.3,0,0,0,376.924,406H343.949A7.191,7.191,0,0,0,337,413.269v32.975A6.752,6.752,0,0,0,343.949,453h7.328a7,7,0,1,0,0-14Z"/><path d="M393.041,286.592l-20.5,20.5-6.236-6.237a7,7,0,1,0-9.9,9.9l11.187,11.186a7,7,0,0,0,9.9,0l25.452-25.452a7,7,0,0,0-9.9-9.9Z"/><path d="M393.041,415.841l-20.5,20.5-6.236-6.237a7,7,0,1,0-9.9,9.9l11.187,11.186a7,7,0,0,0,9.9,0l25.452-25.452a7,7,0,0,0-9.9-9.9Z"/><path d="M464.857,295H420.891a7,7,0,0,0,0,14h43.966a7,7,0,0,0,0-14Z"/><path d="M464.857,359H420.891a7,7,0,0,0,0,14h43.966a7,7,0,0,0,0-14Z"/><path d="M464.857,423H420.891a7,7,0,0,0,0,14h43.966a7,7,0,0,0,0-14Z"/>
+                                        </g>
+                                    </svg>
+                                    <h3 class="services--single-heading">Dalinių Krovinių <br> Gabenimas</h3>
+                                    <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
+                                    <span class="services--more">SUŽINOK DAUGIAU
+                                        <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
+                                            <g fill="url(#grad1)">
+                                                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                                                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                                                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a href="#" class="services--single">
+                                    <svg class="services--icon" height="55px" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 512 512">
+                                        <title>Derivery location 3</title>
+                                        <g fill="url(#grad2)">
+                                            <path d="M467.475,158.765a7,7,0,0,0-3.757,9.158A224.694,224.694,0,0,1,126.573,437.857l31.746-43.086a7,7,0,0,0-6.537-11.093L76.914,393.4a7,7,0,0,0-6,8.137l12.9,74.387a7,7,0,0,0,12.533,2.957l21.92-29.751A238.661,238.661,0,0,0,495,254.464a237.048,237.048,0,0,0-18.366-91.942A7,7,0,0,0,467.475,158.765ZM111.244,435.06c-.021.027-.045.051-.065.079-.034.045-.062.093-.095.139L94.806,457.37,85.96,406.343l51.357-6.669Z"/><path d="M31,257.536A224.667,224.667,0,0,1,385.427,74.143l-31.746,43.086a7,7,0,0,0,6.537,11.093l74.868-9.722a7,7,0,0,0,6-8.137l-12.9-74.387a7,7,0,0,0-12.533-2.957L393.733,62.87A238.661,238.661,0,0,0,17,257.536a237.048,237.048,0,0,0,18.366,91.942,7,7,0,0,0,12.916-5.4A223.12,223.12,0,0,1,31,257.536ZM400.756,76.94c.021-.027.045-.051.065-.079.034-.045.062-.093.095-.139L417.194,54.63l8.846,51.027-51.357,6.669Z"/><path d="M339.513,132.526a62.61,62.61,0,0,0-44.191,17.99q-2.16,2.124-4.1,4.423l-59.636-34.43a7,7,0,0,0-7,0L112.5,185.223a7,7,0,0,0-3.5,6.062v129.43a7,7,0,0,0,3.5,6.062l112.089,64.714a7,7,0,0,0,7,0l112-64.714A6.92,6.92,0,0,0,347,320.715V279.072l37.57-39.124a65.826,65.826,0,0,0,14.461-22.464,60.508,60.508,0,0,0,3.812-25.37,64.448,64.448,0,0,0-19.15-41.6A62.584,62.584,0,0,0,339.513,132.526Zm-111.424,2.128,40.937,23.635-98.081,56.627-40.937-23.635ZM221,373.3l-98-56.63V203.4l98,56.632Zm7.089-125.4L184.945,223l98.081-56.627.369.213a64.328,64.328,0,0,0-7.234,25.529,60.49,60.49,0,0,0,3.789,25.37c.049.131.108.26.158.391ZM333,316.674,235,373.3V260.033L286.545,230.3a71.252,71.252,0,0,0,7.711,9.649L333,280.459ZM385.956,212.6a51.811,51.811,0,0,1-11.407,17.663l-35.036,36.571-35.036-36.571A51.826,51.826,0,0,1,293.07,212.6a46.581,46.581,0,0,1-2.941-19.533,50.48,50.48,0,0,1,15.009-32.57,49.275,49.275,0,0,1,68.75,0,50.475,50.475,0,0,1,15.009,32.57A46.576,46.576,0,0,1,385.956,212.6Z"/><path d="M339.513,160.777a31.149,31.149,0,1,0,31,31.15A31.11,31.11,0,0,0,339.513,160.777Zm0,48.3a17.15,17.15,0,1,1,17-17.148A17.093,17.093,0,0,1,339.513,209.075Z"/>
+                                        </g>
+                                    </svg>
+                                    <h3 class="services--single-heading">Krovinių <br> Ekspedijavimas</h3>
+                                    <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
+                                    <span class="services--more">SUŽINOK DAUGIAU
+                                        <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
+                                            <g fill="url(#grad1)">
+                                                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                                                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                                                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                            <!-- </div> -->
+                            <!-- <div class="services--row2"> -->
+                                <a href="#" class="services--single">
+                                    <svg class="services--icon" height="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.053 512.053" style="enable-background:new 0 0 512.053 512.053;" xml:space="preserve">
+                                        <g fill="url(#grad2)">
+                                            <g>
+                                                <g>
+                                                    <path d="M271.95,401.094c-14.994,0-27.195,12.201-27.195,27.195c0,14.993,12.201,27.195,27.195,27.195
+                                                        c14.993,0,27.195-12.202,27.195-27.195C299.145,413.295,286.943,401.094,271.95,401.094z M271.95,437.354
+                                                        c-5.004,0-9.065-4.061-9.065-9.065s4.061-9.065,9.065-9.065c5.004,0,9.065,4.061,9.065,9.065S276.954,437.354,271.95,437.354z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M271.95,364.834c-34.991,0-63.455,28.473-63.455,63.455s28.464,63.455,63.455,63.455
+                                                        c34.982,0,63.455-28.473,63.455-63.455S306.932,364.834,271.95,364.834z M271.95,473.614c-24.992,0-45.325-20.333-45.325-45.325
+                                                        s20.333-45.325,45.325-45.325s45.325,20.333,45.325,45.325S296.942,473.614,271.95,473.614z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="208.495" y="274.148" width="18.13" height="154.105"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M108.871,53.216c-7.896-14.64-23.143-23.759-39.795-23.796H0v18.13h69.057c9.981,0.027,19.118,5.493,23.859,14.286
+                                                        l171.056,316.368l15.954-8.63L108.871,53.216z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    
+                                                        <rect x="313.562" y="378.43" transform="matrix(0.8764 -0.4817 0.4817 0.8764 -135.0798 248.7809)" width="206.92" height="18.122"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M397.681,169.991L316.078,24.942c-1.178-2.103-3.136-3.644-5.457-4.288c-2.321-0.662-4.786-0.363-6.889,0.825
+                                                        l-145.049,81.603c-4.36,2.457-5.91,7.986-3.454,12.346l81.603,145.058c1.178,2.103,3.146,3.644,5.457,4.288
+                                                        c0.807,0.218,1.632,0.335,2.448,0.335c1.541,0,3.073-0.399,4.442-1.178l145.049-81.594
+                                                        C398.597,179.881,400.138,174.351,397.681,169.991z M248.181,243.698l-72.71-129.258l129.258-72.719l72.701,129.267
+                                                        L248.181,243.698z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M287.36,92.784l-22.672-39.251c-2.502-4.333-8.059-5.829-12.383-3.318l-39.251,22.662
+                                                        c-4.333,2.502-5.82,8.041-3.318,12.383l22.662,39.251c1.677,2.91,4.723,4.533,7.859,4.533c1.541,0,3.1-0.39,4.523-1.215
+                                                        l39.26-22.662c2.085-1.197,3.608-3.173,4.224-5.502C288.883,97.335,288.566,94.86,287.36,92.784z M243.576,107.597l-13.597-23.551
+                                                        l23.551-13.597l13.598,23.551L243.576,107.597z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M479.239,315.04l-81.603-145.049c-2.448-4.36-7.968-5.919-12.337-3.454L240.25,248.131
+                                                        c-4.36,2.457-5.91,7.986-3.454,12.346l81.603,145.058c1.178,2.103,3.137,3.644,5.457,4.288c0.807,0.218,1.623,0.335,2.448,0.335
+                                                        c1.541,0,3.073-0.39,4.424-1.169l145.058-81.603c2.103-1.178,3.644-3.137,4.288-5.457
+                                                        C480.717,319.618,480.427,317.134,479.239,315.04z M329.757,388.747l-72.71-129.258l129.258-72.71l72.71,129.258L329.757,388.747z
+                                                        "/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M368.891,237.888l-22.663-39.251c-2.511-4.342-8.068-5.829-12.383-3.318l-39.251,22.662
+                                                        c-4.333,2.502-5.82,8.041-3.318,12.383l22.662,39.251c1.677,2.91,4.723,4.533,7.859,4.533c1.541,0,3.1-0.39,4.523-1.215
+                                                        l39.251-22.662C369.906,247.769,371.393,242.23,368.891,237.888z M325.107,252.7l-13.597-23.551l23.551-13.597l13.597,23.551
+                                                        L325.107,252.7z"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <h3 class="services--single-heading">Krovinių <br> Sandeliavimas</h3>
+                                    <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
+                                    <span class="services--more">SUŽINOK DAUGIAU
+                                        <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
+                                            <g fill="url(#grad1)">
+                                                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                                                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                                                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a href="#" class="services--single">
+                                    <svg class="services--icon" height="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+                                        <g fill="url(#grad2)">
+                                            <g>
+                                                <g>
+                                                    <path d="M402.524,432l-18.52-55.568c-6.472-19.4-22.984-33.72-43.112-37.384l-53.464-9.728v-4.144
+                                                        c9.304-5.4,17.4-12.624,23.848-21.176h16.152c13.232,0,24-10.768,24-24v-96c0-57.344-46.656-104-104-104s-104,46.656-104,104v56
+                                                        c0,15.424,10.968,28.328,25.512,31.336c4.488,22.992,18.856,42.448,38.488,53.84v4.144l-53.472,9.728
+                                                        c-20.12,3.664-36.64,17.984-43.104,37.384l-3.2,9.608l-27.248-27.248c-3.12-3.12-3.12-8.2,0-11.32l31.6-31.592l-59.312-59.312
+                                                        L16.98,292.28c-10.576,10.576-16.4,24.64-16.4,39.6s5.824,29.016,16.4,39.592l108.12,108.12C135.676,490.168,149.74,496,164.7,496
+                                                        c14.96,0,29.016-5.832,39.344-16.168l38.968-35.704L230.86,432H402.524z M335.428,280c0,4.416-3.592,8-8,8H320.7
+                                                        c2.32-5.288,4.08-10.864,5.216-16.664c3.424-0.712,6.576-2.072,9.512-3.784V280z M327.428,253.776v-27.552
+                                                        c4.76,2.776,8,7.88,8,13.776S332.188,251,327.428,253.776z M167.428,253.776c-4.76-2.776-8-7.88-8-13.776s3.24-11,8-13.776
+                                                        V253.776z M167.428,200v9.136c-2.848,0.744-5.52,1.864-8,3.312V184c0-48.52,39.48-88,88-88s88,39.48,88,88v28.448
+                                                        c-2.48-1.448-5.152-2.576-8-3.312V200h-8c-23.656,0-45.896-9.216-62.632-25.944l-9.368-9.368l-9.368,9.368
+                                                        C221.324,190.784,199.084,200,175.428,200H167.428z M183.428,256v-40.304c24.024-1.808,46.424-11.72,64-28.432
+                                                        c17.576,16.712,39.976,26.632,64,28.432V256c0,11.664-3.184,22.576-8.656,32h-55.344v16h42.192c-11.28,9.928-26.024,16-42.192,16
+                                                        C212.14,320,183.428,291.288,183.428,256z M271.428,332.312v0.376l-24,24l-24-24v-0.376c7.584,2.384,15.64,3.688,24,3.688
+                                                        S263.844,334.696,271.428,332.312z M126.02,381.488c4.616-13.856,16.416-24.088,30.792-26.712l55.92-10.16l34.696,34.696
+                                                        l34.688-34.688l55.912,10.16c14.376,2.624,26.176,12.848,30.792,26.712L380.332,416H214.86l-31.16-31.16l-34.624,31.32
+                                                        c-3.016,3.032-8.288,3.032-11.312,0l-17.472-17.472L126.02,381.488z M52.684,279.192l36.688,36.688l-8.688,8.688L43.996,287.88
+                                                        L52.684,279.192z M192.964,468.296c-7.552,7.536-17.6,11.704-28.28,11.704c-10.68,0-20.728-4.168-28.288-11.72L28.276,360.168
+                                                        c-7.552-7.552-11.712-17.6-11.712-28.28c0-10.688,4.16-20.736,11.712-28.288l4.4-4.4l36.688,36.688l-0.288,0.288
+                                                        c-9.352,9.36-9.352,24.584,0,33.944l57.368,57.368c4.536,4.528,10.56,7.032,16.976,7.032s12.44-2.496,16.68-6.752l0.6-0.536
+                                                        l36.856,36.856L192.964,468.296z M209.364,453.256l-36.776-36.776l10.568-9.552l36.712,36.712L209.364,453.256z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M471.428,0h-112c-13.232,0-24,10.768-24,24v64c0,13.232,10.768,24,24,24h21.368l-8.272,48.248l77.2-48.248h21.704
+                                                        c13.232,0,24-10.768,24-24V24C495.428,10.768,484.66,0,471.428,0z M479.428,88c0,4.408-3.592,8-8,8h-26.296l-50.808,31.752
+                                                        L399.772,96h-40.344c-4.408,0-8-3.592-8-8V24c0-4.408,3.592-8,8-8h112c4.408,0,8,3.592,8,8V88z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="367.428" y="32" width="96" height="16"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="367.428" y="64" width="64" height="16"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <rect x="447.428" y="64" width="16" height="16"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M247.428,24C142.9,24,52.86,96.304,29.452,197.16l-15.16-25.272l-13.72,8.232l28.12,46.856l46.856-28.12l-8.232-13.72
+                                                        l-21.68,13.008C68.308,105.88,151.276,40,247.428,40c21.016,0,41.752,3.12,61.632,9.28L313.796,34
+                                                        C292.38,27.36,270.052,24,247.428,24z"/>
+                                                </g>
+                                            </g>
+                                            <g>
+                                                <g>
+                                                    <path d="M491.54,177.136l-46.856-28.12l-28.112,46.864l13.72,8.232l14-23.336c7.368,21.56,11.136,44.112,11.136,67.224
+                                                        c0,47.576-16.48,94.088-46.392,130.96l12.424,10.08c32.224-39.712,49.968-89.808,49.968-141.04
+                                                        c0-24.472-3.944-48.368-11.632-71.248l23.512,14.104L491.54,177.136z"/>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <h3 class="services--single-heading">Klientų Atstovavimas <br> Muitinėje</h3>
+                                    <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
+                                    <span class="services--more">SUŽINOK DAUGIAU
+                                        <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
+                                            <g fill="url(#grad1)">
+                                                <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
+                                                    L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
+                                                    c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <div href="#" class="services--single none">
+                                    
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about-us">
+                <div class="container">
+                    <div class="about-us--wrapper">
+                        <h2 class="about-us--heading">Apie Mus</h2>
+                        <p class="about-us--paragraph">Sveikiname Jus apsilankius mūsų įmonės svetainėje.
+                            <br><br>
+                            UAB „ Sausumos laivai“ įkurta 2002 metais privataus kapitalo pagrindu. Įmonės akcininkai ir vadovai yra ilgametę darbo patirtį transporto srityje turintys specialistai, kurie savo sukauptą patirtį ir naujas idėjas norėjo įgyvendinti įkurtos įmonės veikloje.
+                            <br><br>
+                            Vadovų sukaupta patirtis leido įmonei nuo pat jos įkūrimo dienos teikti kokybiškas ir profesionalias logistines paslaugas, jas patikėjusiems įmonės klientams.
+                            <br><br>
+                            Sėkmingi pirmieji įmonės gyvavimo metai, atnešė įmonei didelį krovinių apyvartos augimą, bei klientų kiekį. Klientų poreikių tenkinimui ir norui suteikti jiems daugiau paslaugų, 2003 metais Kauno mieste buvo įkurta įmonės atstovybė, kurios pagrindinė veiklos sritis, muitinės tarpininko, krovinių sandėliavimo ir kitos paslaugos.
+                            <br><br>
+                            Tais pačiais, 2003 metais, didėjančiam klientų bei krovinių kiekiui tenkinti, buvo priimtas sprendimas kurti savo automobilių parką. Įmonės automobilių parką sudaro Mercedes Benz markės vilkikai ir tentuotos puspriekabės atitinkantys EURO 3 reikalavimus.
+                            <br><br>
+                            Šiai dienai UAB „ Sausumos lavai“ atlieka, krovinių pervežimą nuosavu transportu po visą Europą, Lietuvą, Skandinaviją bei NVS šalis, krovinių ekspedijavimą, krovinių sandėliavimą, iškrovimą - pakrovimą į vagonus, muitinės tarpininko paslaugas Lietuvoje ir Rusijoj.
+                            <br><br>
+                            Mes visada laukiame ir esame atviri naujiems pasiūlymams bendradarbiaujant krovinių gabenimo srityje.
+                        </p>
+                        <!-- <a class="about-us--btn-secondary" href="#">
+                            <svg class="about-us--icon" height="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 480 480" xml:space="preserve">
+                                <g fill="url(#grad1)">
+                                    <g>
+                                        <g>
+                                            <path d="M277.648,97.336C288.888,87.088,296,72.376,296,56c0-30.872-25.12-56-56-56s-56,25.128-56,56
+                                                c0,16.376,7.112,31.088,18.352,41.336C169.16,103.736,144,132.968,144,168v32c0,4.424,3.584,8,8,8h176c4.416,0,8-3.576,8-8v-32
+                                                C336,132.968,310.84,103.736,277.648,97.336z M200,56c0-22.056,17.944-40,40-40c22.056,0,40,17.944,40,40
+                                                c0,22.056-17.944,40-40,40C217.944,96,200,78.056,200,56z M320,192H160v-24c0-30.872,25.12-56,56-56h48c30.88,0,56,25.128,56,56
+                                                V192z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M133.648,369.336C144.888,359.088,152,344.376,152,328c0-30.872-25.12-56-56-56s-56,25.128-56,56
+                                                c0,16.376,7.112,31.088,18.352,41.336C25.16,375.736,0,404.968,0,440v32c0,4.424,3.584,8,8,8h176c4.416,0,8-3.576,8-8v-32
+                                                C192,404.968,166.84,375.736,133.648,369.336z M56,328c0-22.056,17.944-40,40-40c22.056,0,40,17.944,40,40
+                                                c0,22.056-17.944,40-40,40C73.944,368,56,350.056,56,328z M176,464H16v-24c0-30.872,25.12-56,56-56h48c30.88,0,56,25.128,56,56
+                                                V464z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M421.648,369.336C432.888,359.088,440,344.376,440,328c0-30.872-25.12-56-56-56s-56,25.128-56,56
+                                                c0,16.376,7.112,31.088,18.352,41.336C313.16,375.736,288,404.968,288,440v32c0,4.424,3.584,8,8,8h176c4.416,0,8-3.576,8-8v-32
+                                                C480,404.968,454.84,375.736,421.648,369.336z M344,328c0-22.056,17.944-40,40-40c22.056,0,40,17.944,40,40
+                                                c0,22.056-17.944,40-40,40C361.944,368,344,350.056,344,328z M464,464H304v-24c0-30.872,25.12-56,56-56h48
+                                                c30.88,0,56,25.128,56,56V464z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M48.152,255.744l-15.984,0.624c0.216,5.512,0.656,11.096,1.312,16.584l15.888-1.904
+                                                C48.76,265.984,48.352,260.832,48.152,255.744z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M33.472,223.176c-0.648,5.456-1.096,11.032-1.304,16.576l15.984,0.624c0.2-5.12,0.608-10.264,1.208-15.312L33.472,223.176
+                                                z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M113.912,82.544c-4.376,3.336-8.688,6.904-12.824,10.616l10.696,11.904c3.808-3.424,7.784-6.72,11.824-9.792
+                                                L113.912,82.544z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M51.736,159.44c-2.352,5-4.528,10.152-6.48,15.344l14.976,5.624c1.8-4.784,3.808-9.536,5.976-14.136L51.736,159.44z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M40.024,190.584c-1.52,5.288-2.84,10.736-3.936,16.16l15.688,3.16c1.008-5,2.224-10.024,3.632-14.912L40.024,190.584z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M89.176,104.776c-3.832,4.032-7.512,8.232-10.968,12.496l12.44,10.064c3.184-3.936,6.592-7.824,10.128-11.544
+                                                L89.176,104.776z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M141.864,64.568c-4.84,2.584-9.664,5.424-14.352,8.44l8.672,13.456c4.32-2.792,8.768-5.408,13.216-7.784L141.864,64.568z"
+                                                />
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M68.272,130.6c-3.128,4.568-6.104,9.304-8.848,14.096l13.88,7.952c2.528-4.416,5.28-8.792,8.168-13L68.272,130.6z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M202.096,436.256l-3.16,15.688c5.384,1.088,10.92,1.96,16.448,2.608l1.856-15.888
+                                                C212.16,438.064,207.056,437.256,202.096,436.256z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M278.408,436.16c-4.968,1.008-10.064,1.832-15.168,2.456l1.928,15.888c5.52-0.672,11.04-1.568,16.416-2.656
+                                                L278.408,436.16z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M247.944,439.84c-5.112,0.2-10.28,0.224-15.36,0.024l-0.632,15.984c2.664,0.112,5.352,0.16,8.072,0.16
+                                                c2.864-0.016,5.72-0.072,8.56-0.184L247.944,439.84z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M378.944,93.224l-10.688,11.904c3.808,3.424,7.504,7.024,11,10.704l11.616-11
+                                                C387.08,100.832,383.072,96.928,378.944,93.224z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M401.824,117.32l-12.44,10.064c3.192,3.944,6.28,8.096,9.176,12.32l13.192-9.048
+                                                C408.616,126.088,405.28,121.6,401.824,117.32z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M447.832,239.776l-15.984,0.624c0.104,2.52,0.152,5.064,0.152,7.6c0,2.6-0.048,5.184-0.152,7.768l15.984,0.624
+                                                c0.112-2.784,0.168-5.584,0.168-8.408C448,245.24,447.944,242.496,447.832,239.776z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M420.608,144.736l-13.888,7.96c2.536,4.424,4.92,9.008,7.096,13.616l14.472-6.832
+                                                C425.936,154.488,423.352,149.528,420.608,144.736z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M434.76,174.816l-14.976,5.632c1.792,4.768,3.408,9.672,4.816,14.568l15.384-4.408
+                                                C438.464,185.296,436.704,179.984,434.76,174.816z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M443.904,206.776l-15.68,3.152c1.008,5.008,1.824,10.112,2.416,15.168l15.888-1.888
+                                                C445.88,217.736,445,212.208,443.904,206.776z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M352.536,73.04l-8.664,13.456c4.272,2.752,8.496,5.72,12.568,8.832l9.712-12.728
+                                                C361.744,79.232,357.168,76.024,352.536,73.04z"/>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path d="M323.232,57.328l-6.408,14.656c4.664,2.04,9.304,4.296,13.808,6.712L338.2,64.6
+                                                C333.328,61.976,328.288,59.528,323.232,57.328z"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <span class="about-us--button-text">Darbuotojai</span>
+                        </a> -->
+                    </div>
+                </div>
+            </section>
+
+            <section class="partners">
+                <div class="container">
+                    <div class="partners--wrapper">
+                        <h2 class="partners--heading">Partneriai</h2>
+                        <div class="owl-carousel">
+                            <div class="item"><img src="/app/png/sl-transp1.png" alt=""></div>
+                            <div class="item"><img src="/app/png/utf-transp1.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer--wrapper">
+                        <div class="footer--contacts">
+                            <div class="footer--telephone">
+                                <svg class="footer--icon" height="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 384 384" xml:space="preserve">
+                                    <defs>
+                                        <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <g fill="url(#grad3)">
+                                        <path d="M353.188,252.052c-23.51,0-46.594-3.677-68.469-10.906c-10.906-3.719-23.323-0.833-30.438,6.417l-43.177,32.594
+                                            c-50.073-26.729-80.917-57.563-107.281-107.26l31.635-42.052c8.219-8.208,11.167-20.198,7.635-31.448
+                                            c-7.26-21.99-10.948-45.063-10.948-68.583C132.146,13.823,118.323,0,101.333,0H30.812C13.823,0,0,13.823,0,30.812
+                                            C0,225.563,158.438,384,353.188,384c16.99,0,30.813-13.823,30.813-30.813v-70.323C384,265.875,370.177,252.052,353.188,252.052z
+                                            M362.667,353.188c0,5.229-4.25,9.479-9.479,9.479c-182.99,0-331.854-148.865-331.854-331.854c0-5.229,4.25-9.479,9.479-9.479
+                                            h70.521c5.229,0,9.479,4.25,9.479,9.479c0,25.802,4.052,51.125,11.979,75.115c1.104,3.542,0.208,7.208-3.375,10.938L82.75,165.427
+                                            c-2.458,3.26-2.844,7.625-1,11.26c29.927,58.823,66.292,95.188,125.531,125.542c3.604,1.885,8.021,1.49,11.292-0.979
+                                            l49.677-37.635c2.51-2.51,6.271-3.406,9.667-2.25c24.156,7.979,49.479,12.021,75.271,12.021c5.229,0,9.479,4.25,9.479,9.479
+                                            V353.188z"/>
                                     </g>
                                 </svg>
-                                <h3 class="services--single-heading">Dalinių Krovinių <br> Gabenimas</h3>
-                                <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
-                                <span class="services--more">SUŽINOK DAUGIAU
-                                    <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
-                                        <g fill="url(#grad1)">
-                                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                                                L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                                                c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <a href="#" class="services--single">
-                                <svg class="services--icon" height="55px" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 512 512">
-                                    <title>Derivery location 3</title>
-                                    <g fill="url(#grad2)">
-                                        <path d="M467.475,158.765a7,7,0,0,0-3.757,9.158A224.694,224.694,0,0,1,126.573,437.857l31.746-43.086a7,7,0,0,0-6.537-11.093L76.914,393.4a7,7,0,0,0-6,8.137l12.9,74.387a7,7,0,0,0,12.533,2.957l21.92-29.751A238.661,238.661,0,0,0,495,254.464a237.048,237.048,0,0,0-18.366-91.942A7,7,0,0,0,467.475,158.765ZM111.244,435.06c-.021.027-.045.051-.065.079-.034.045-.062.093-.095.139L94.806,457.37,85.96,406.343l51.357-6.669Z"/><path d="M31,257.536A224.667,224.667,0,0,1,385.427,74.143l-31.746,43.086a7,7,0,0,0,6.537,11.093l74.868-9.722a7,7,0,0,0,6-8.137l-12.9-74.387a7,7,0,0,0-12.533-2.957L393.733,62.87A238.661,238.661,0,0,0,17,257.536a237.048,237.048,0,0,0,18.366,91.942,7,7,0,0,0,12.916-5.4A223.12,223.12,0,0,1,31,257.536ZM400.756,76.94c.021-.027.045-.051.065-.079.034-.045.062-.093.095-.139L417.194,54.63l8.846,51.027-51.357,6.669Z"/><path d="M339.513,132.526a62.61,62.61,0,0,0-44.191,17.99q-2.16,2.124-4.1,4.423l-59.636-34.43a7,7,0,0,0-7,0L112.5,185.223a7,7,0,0,0-3.5,6.062v129.43a7,7,0,0,0,3.5,6.062l112.089,64.714a7,7,0,0,0,7,0l112-64.714A6.92,6.92,0,0,0,347,320.715V279.072l37.57-39.124a65.826,65.826,0,0,0,14.461-22.464,60.508,60.508,0,0,0,3.812-25.37,64.448,64.448,0,0,0-19.15-41.6A62.584,62.584,0,0,0,339.513,132.526Zm-111.424,2.128,40.937,23.635-98.081,56.627-40.937-23.635ZM221,373.3l-98-56.63V203.4l98,56.632Zm7.089-125.4L184.945,223l98.081-56.627.369.213a64.328,64.328,0,0,0-7.234,25.529,60.49,60.49,0,0,0,3.789,25.37c.049.131.108.26.158.391ZM333,316.674,235,373.3V260.033L286.545,230.3a71.252,71.252,0,0,0,7.711,9.649L333,280.459ZM385.956,212.6a51.811,51.811,0,0,1-11.407,17.663l-35.036,36.571-35.036-36.571A51.826,51.826,0,0,1,293.07,212.6a46.581,46.581,0,0,1-2.941-19.533,50.48,50.48,0,0,1,15.009-32.57,49.275,49.275,0,0,1,68.75,0,50.475,50.475,0,0,1,15.009,32.57A46.576,46.576,0,0,1,385.956,212.6Z"/><path d="M339.513,160.777a31.149,31.149,0,1,0,31,31.15A31.11,31.11,0,0,0,339.513,160.777Zm0,48.3a17.15,17.15,0,1,1,17-17.148A17.093,17.093,0,0,1,339.513,209.075Z"/>
-                                    </g>
-                                </svg>
-                                <h3 class="services--single-heading">Krovinių <br> Ekspedijavimas</h3>
-                                <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
-                                <span class="services--more">SUŽINOK DAUGIAU
-                                    <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
-                                        <g fill="url(#grad1)">
-                                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                                                L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                                                c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                        <!-- </div> -->
-                        <!-- <div class="services--row2"> -->
-                            <a href="#" class="services--single">
-                                <svg class="services--icon" height="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.053 512.053" style="enable-background:new 0 0 512.053 512.053;" xml:space="preserve">
-                                    <g fill="url(#grad2)">
-                                        <g>
-                                            <g>
-                                                <path d="M271.95,401.094c-14.994,0-27.195,12.201-27.195,27.195c0,14.993,12.201,27.195,27.195,27.195
-                                                    c14.993,0,27.195-12.202,27.195-27.195C299.145,413.295,286.943,401.094,271.95,401.094z M271.95,437.354
-                                                    c-5.004,0-9.065-4.061-9.065-9.065s4.061-9.065,9.065-9.065c5.004,0,9.065,4.061,9.065,9.065S276.954,437.354,271.95,437.354z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M271.95,364.834c-34.991,0-63.455,28.473-63.455,63.455s28.464,63.455,63.455,63.455
-                                                    c34.982,0,63.455-28.473,63.455-63.455S306.932,364.834,271.95,364.834z M271.95,473.614c-24.992,0-45.325-20.333-45.325-45.325
-                                                    s20.333-45.325,45.325-45.325s45.325,20.333,45.325,45.325S296.942,473.614,271.95,473.614z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <rect x="208.495" y="274.148" width="18.13" height="154.105"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M108.871,53.216c-7.896-14.64-23.143-23.759-39.795-23.796H0v18.13h69.057c9.981,0.027,19.118,5.493,23.859,14.286
-                                                    l171.056,316.368l15.954-8.63L108.871,53.216z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                
-                                                    <rect x="313.562" y="378.43" transform="matrix(0.8764 -0.4817 0.4817 0.8764 -135.0798 248.7809)" width="206.92" height="18.122"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M397.681,169.991L316.078,24.942c-1.178-2.103-3.136-3.644-5.457-4.288c-2.321-0.662-4.786-0.363-6.889,0.825
-                                                    l-145.049,81.603c-4.36,2.457-5.91,7.986-3.454,12.346l81.603,145.058c1.178,2.103,3.146,3.644,5.457,4.288
-                                                    c0.807,0.218,1.632,0.335,2.448,0.335c1.541,0,3.073-0.399,4.442-1.178l145.049-81.594
-                                                    C398.597,179.881,400.138,174.351,397.681,169.991z M248.181,243.698l-72.71-129.258l129.258-72.719l72.701,129.267
-                                                    L248.181,243.698z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M287.36,92.784l-22.672-39.251c-2.502-4.333-8.059-5.829-12.383-3.318l-39.251,22.662
-                                                    c-4.333,2.502-5.82,8.041-3.318,12.383l22.662,39.251c1.677,2.91,4.723,4.533,7.859,4.533c1.541,0,3.1-0.39,4.523-1.215
-                                                    l39.26-22.662c2.085-1.197,3.608-3.173,4.224-5.502C288.883,97.335,288.566,94.86,287.36,92.784z M243.576,107.597l-13.597-23.551
-                                                    l23.551-13.597l13.598,23.551L243.576,107.597z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M479.239,315.04l-81.603-145.049c-2.448-4.36-7.968-5.919-12.337-3.454L240.25,248.131
-                                                    c-4.36,2.457-5.91,7.986-3.454,12.346l81.603,145.058c1.178,2.103,3.137,3.644,5.457,4.288c0.807,0.218,1.623,0.335,2.448,0.335
-                                                    c1.541,0,3.073-0.39,4.424-1.169l145.058-81.603c2.103-1.178,3.644-3.137,4.288-5.457
-                                                    C480.717,319.618,480.427,317.134,479.239,315.04z M329.757,388.747l-72.71-129.258l129.258-72.71l72.71,129.258L329.757,388.747z
-                                                    "/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M368.891,237.888l-22.663-39.251c-2.511-4.342-8.068-5.829-12.383-3.318l-39.251,22.662
-                                                    c-4.333,2.502-5.82,8.041-3.318,12.383l22.662,39.251c1.677,2.91,4.723,4.533,7.859,4.533c1.541,0,3.1-0.39,4.523-1.215
-                                                    l39.251-22.662C369.906,247.769,371.393,242.23,368.891,237.888z M325.107,252.7l-13.597-23.551l23.551-13.597l13.597,23.551
-                                                    L325.107,252.7z"/>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                                <h3 class="services--single-heading">Krovinių <br> Sandeliavimas</h3>
-                                <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
-                                <span class="services--more">SUŽINOK DAUGIAU
-                                    <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
-                                        <g fill="url(#grad1)">
-                                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                                                L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                                                c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <a href="#" class="services--single">
-                                <svg class="services--icon" height="55px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
-                                    <g fill="url(#grad2)">
-                                        <g>
-                                            <g>
-                                                <path d="M402.524,432l-18.52-55.568c-6.472-19.4-22.984-33.72-43.112-37.384l-53.464-9.728v-4.144
-                                                    c9.304-5.4,17.4-12.624,23.848-21.176h16.152c13.232,0,24-10.768,24-24v-96c0-57.344-46.656-104-104-104s-104,46.656-104,104v56
-                                                    c0,15.424,10.968,28.328,25.512,31.336c4.488,22.992,18.856,42.448,38.488,53.84v4.144l-53.472,9.728
-                                                    c-20.12,3.664-36.64,17.984-43.104,37.384l-3.2,9.608l-27.248-27.248c-3.12-3.12-3.12-8.2,0-11.32l31.6-31.592l-59.312-59.312
-                                                    L16.98,292.28c-10.576,10.576-16.4,24.64-16.4,39.6s5.824,29.016,16.4,39.592l108.12,108.12C135.676,490.168,149.74,496,164.7,496
-                                                    c14.96,0,29.016-5.832,39.344-16.168l38.968-35.704L230.86,432H402.524z M335.428,280c0,4.416-3.592,8-8,8H320.7
-                                                    c2.32-5.288,4.08-10.864,5.216-16.664c3.424-0.712,6.576-2.072,9.512-3.784V280z M327.428,253.776v-27.552
-                                                    c4.76,2.776,8,7.88,8,13.776S332.188,251,327.428,253.776z M167.428,253.776c-4.76-2.776-8-7.88-8-13.776s3.24-11,8-13.776
-                                                    V253.776z M167.428,200v9.136c-2.848,0.744-5.52,1.864-8,3.312V184c0-48.52,39.48-88,88-88s88,39.48,88,88v28.448
-                                                    c-2.48-1.448-5.152-2.576-8-3.312V200h-8c-23.656,0-45.896-9.216-62.632-25.944l-9.368-9.368l-9.368,9.368
-                                                    C221.324,190.784,199.084,200,175.428,200H167.428z M183.428,256v-40.304c24.024-1.808,46.424-11.72,64-28.432
-                                                    c17.576,16.712,39.976,26.632,64,28.432V256c0,11.664-3.184,22.576-8.656,32h-55.344v16h42.192c-11.28,9.928-26.024,16-42.192,16
-                                                    C212.14,320,183.428,291.288,183.428,256z M271.428,332.312v0.376l-24,24l-24-24v-0.376c7.584,2.384,15.64,3.688,24,3.688
-                                                    S263.844,334.696,271.428,332.312z M126.02,381.488c4.616-13.856,16.416-24.088,30.792-26.712l55.92-10.16l34.696,34.696
-                                                    l34.688-34.688l55.912,10.16c14.376,2.624,26.176,12.848,30.792,26.712L380.332,416H214.86l-31.16-31.16l-34.624,31.32
-                                                    c-3.016,3.032-8.288,3.032-11.312,0l-17.472-17.472L126.02,381.488z M52.684,279.192l36.688,36.688l-8.688,8.688L43.996,287.88
-                                                    L52.684,279.192z M192.964,468.296c-7.552,7.536-17.6,11.704-28.28,11.704c-10.68,0-20.728-4.168-28.288-11.72L28.276,360.168
-                                                    c-7.552-7.552-11.712-17.6-11.712-28.28c0-10.688,4.16-20.736,11.712-28.288l4.4-4.4l36.688,36.688l-0.288,0.288
-                                                    c-9.352,9.36-9.352,24.584,0,33.944l57.368,57.368c4.536,4.528,10.56,7.032,16.976,7.032s12.44-2.496,16.68-6.752l0.6-0.536
-                                                    l36.856,36.856L192.964,468.296z M209.364,453.256l-36.776-36.776l10.568-9.552l36.712,36.712L209.364,453.256z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M471.428,0h-112c-13.232,0-24,10.768-24,24v64c0,13.232,10.768,24,24,24h21.368l-8.272,48.248l77.2-48.248h21.704
-                                                    c13.232,0,24-10.768,24-24V24C495.428,10.768,484.66,0,471.428,0z M479.428,88c0,4.408-3.592,8-8,8h-26.296l-50.808,31.752
-                                                    L399.772,96h-40.344c-4.408,0-8-3.592-8-8V24c0-4.408,3.592-8,8-8h112c4.408,0,8,3.592,8,8V88z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <rect x="367.428" y="32" width="96" height="16"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <rect x="367.428" y="64" width="64" height="16"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <rect x="447.428" y="64" width="16" height="16"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M247.428,24C142.9,24,52.86,96.304,29.452,197.16l-15.16-25.272l-13.72,8.232l28.12,46.856l46.856-28.12l-8.232-13.72
-                                                    l-21.68,13.008C68.308,105.88,151.276,40,247.428,40c21.016,0,41.752,3.12,61.632,9.28L313.796,34
-                                                    C292.38,27.36,270.052,24,247.428,24z"/>
-                                            </g>
-                                        </g>
-                                        <g>
-                                            <g>
-                                                <path d="M491.54,177.136l-46.856-28.12l-28.112,46.864l13.72,8.232l14-23.336c7.368,21.56,11.136,44.112,11.136,67.224
-                                                    c0,47.576-16.48,94.088-46.392,130.96l12.424,10.08c32.224-39.712,49.968-89.808,49.968-141.04
-                                                    c0-24.472-3.944-48.368-11.632-71.248l23.512,14.104L491.54,177.136z"/>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                                <h3 class="services--single-heading">Klientų Atstovavimas <br> Muitinėje</h3>
-                                <p class="services--paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure a voluptates nulla rerum modi illum est.</p>
-                                <span class="services--more">SUŽINOK DAUGIAU
-                                    <svg class="services--more-arrow" height="10px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 451.846 451.847" xml:space="preserve">
-                                        <g fill="url(#grad1)">
-                                            <path d="M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744
-                                                L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284
-                                                c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z"/>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <div href="#" class="services--single none">
-                                
+                                <span class="footer--icon-text">+370 46 402824</span>
                             </div>
-                        <!-- </div> -->
+                            <div class="footer--mail">
+                                <svg class="footer--icon" height="20px" enable-background="new 0 0 479.058 479.058" viewBox="0 0 479.058 479.058" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="url(#grad3)">
+                                        <path d="m434.146 59.882h-389.234c-24.766 0-44.912 20.146-44.912 44.912v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159l-200.355 173.649-200.356-173.649c1.769-.736 3.704-1.159 5.738-1.159zm0 299.411h-389.234c-8.26 0-14.971-6.71-14.971-14.971v-251.648l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"/>
+                                    </g>
+                                </svg>
+                                <span class="footer--icon-text">info@sausumos-laivai.lt</span>
+                            </div>
+                            <div class="footer--location">
+                                <svg class="footer--icon" height="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
+                                    <g fill="url(#grad3)">
+                                        <g>
+                                            <path d="M256,0C156.748,0,76,80.748,76,180c0,33.534,9.289,66.26,26.869,94.652l142.885,230.257
+                                                c2.737,4.411,7.559,7.091,12.745,7.091c0.04,0,0.079,0,0.119,0c5.231-0.041,10.063-2.804,12.75-7.292L410.611,272.22
+                                                C427.221,244.428,436,212.539,436,180C436,80.748,355.252,0,256,0z M384.866,256.818L258.272,468.186l-129.905-209.34
+                                                C113.734,235.214,105.8,207.95,105.8,180c0-82.71,67.49-150.2,150.2-150.2S406.1,97.29,406.1,180
+                                                C406.1,207.121,398.689,233.688,384.866,256.818z"/>
+                                        </g>
+                                        <g>
+                                            <path d="M256,90c-49.626,0-90,40.374-90,90c0,49.309,39.717,90,90,90c50.903,0,90-41.233,90-90C346,130.374,305.626,90,256,90z
+                                                M256,240.2c-33.257,0-60.2-27.033-60.2-60.2c0-33.084,27.116-60.2,60.2-60.2s60.1,27.116,60.1,60.2
+                                                C316.1,212.683,289.784,240.2,256,240.2z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <span class="footer--icon-text">LT-94101 Klaipėda, Šilutės pl.83</span>
+                            </div>
+                        </div>
+                        <div class="footer--line"></div>
+                        <div class="footer--terms-cr">
+                            <a href="#" class="footer--terms">Taisyklės ir sąlygos</a>
+                            <span class="footer--cr">© 2002-2020, sausumos-laivai.lt visos teisės saugomos</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
 
-        <section class="about-us">
-            <div class="container">
-                <div class="about-us--wrapper">
-                    <h2 class="about-us--heading">Apie Mus</h2>
-                    <p class="about-us--paragraph">Sveikiname Jus apsilankius mūsų įmonės svetainėje.
-                        <br><br>
-                        UAB „ Sausumos laivai“ įkurta 2002 metais privataus kapitalo pagrindu. Įmonės akcininkai ir vadovai yra ilgametę darbo patirtį transporto srityje turintys specialistai, kurie savo sukauptą patirtį ir naujas idėjas norėjo įgyvendinti įkurtos įmonės veikloje.
-                        <br><br>
-                        Vadovų sukaupta patirtis leido įmonei nuo pat jos įkūrimo dienos teikti kokybiškas ir profesionalias logistines paslaugas, jas patikėjusiems įmonės klientams.
-                        <br><br>
-                        Sėkmingi pirmieji įmonės gyvavimo metai, atnešė įmonei didelį krovinių apyvartos augimą, bei klientų kiekį. Klientų poreikių tenkinimui ir norui suteikti jiems daugiau paslaugų, 2003 metais Kauno mieste buvo įkurta įmonės atstovybė, kurios pagrindinė veiklos sritis, muitinės tarpininko, krovinių sandėliavimo ir kitos paslaugos.
-                        <br><br>
-                        Tais pačiais, 2003 metais, didėjančiam klientų bei krovinių kiekiui tenkinti, buvo priimtas sprendimas kurti savo automobilių parką. Įmonės automobilių parką sudaro Mercedes Benz markės vilkikai ir tentuotos puspriekabės atitinkantys EURO 3 reikalavimus.
-                        <br><br>
-                        Šiai dienai UAB „ Sausumos lavai“ atlieka, krovinių pervežimą nuosavu transportu po visą Europą, Lietuvą, Skandinaviją bei NVS šalis, krovinių ekspedijavimą, krovinių sandėliavimą, iškrovimą - pakrovimą į vagonus, muitinės tarpininko paslaugas Lietuvoje ir Rusijoj.
-                        <br><br>
-                        Mes visada laukiame ir esame atviri naujiems pasiūlymams bendradarbiaujant krovinių gabenimo srityje.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    
-    
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="app/js/script.js"></script>
 
-    <footer>
-
-    </footer>
-</body>
+            
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+            <script src="app/js/script.js"></script>
+        </footer>
+    </body>
 </html>
